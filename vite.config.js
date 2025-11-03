@@ -14,7 +14,7 @@ export default ({ mode }) => {
     server: isDev
       ? {
           host: true,
-          port: 3000,
+          port: 3001,
           // allowedHosts: ['.trycloudflare.com'],
           proxy: {
             '/api': {

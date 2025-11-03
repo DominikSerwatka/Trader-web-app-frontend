@@ -4,6 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP Cal – musi być PRZED embed.js -->
+    <script>
+      window.Cal = window.Cal || function () {
+        (window.Cal.q = window.Cal.q || []).push(arguments);
+      };
+      window.Cal.q = window.Cal.q || [];
+      window.Cal.ns = window.Cal.ns || {};
+    </script>
+
+    <!-- skrypt embedu z Twojej instancji --> 
+    <script async id="cal-embed-script" src="https://reviewer-cooper-tumor-prep.trycloudflare.com/embed/embed.js"></script>
+
     <title>Trader web app</title>
   </head>
   <body>
